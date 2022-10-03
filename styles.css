@@ -1,0 +1,39 @@
+.header {
+    background-image: url(./imagenes_integrador_front/hawaii.jpg);
+    background-position: center;
+    background-position: cover;
+    height: 600px;
+}
+.a-reset    {
+    color: white;
+    text-decoration: none;
+
+}
+
+/*.navegador  {
+   
+    background-color: rgb(98, 94, 94);
+    text-decoration: none;
+    
+}*/
+.img-logo   {
+    width: 80px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    
+}
+.bg-footer    {
+    background-color: rgb(53, 53, 92);
+}
+/*.contenedor     {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-pal  {
+    width: 250;
+    height: 250;
+}

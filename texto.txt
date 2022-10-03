@@ -1,0 +1,102 @@
+html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<div class="header">
+      <nav class="img-logo">
+        <img src="imagenes_integrador_front/codoacodo.png" alt="foto logo">
+      </nav>
+      
+        <nav>
+            <img src="imagenes_integrador_front/hawaii.jpg" alt="">
+            <h1></h1>
+            <p></p>
+            
+        </nav>
+</div class="header">
+
+<div class="contenedor"></div>
+ <div class="row"> 
+     <div class= "col-sm-4">
+       <div class="card" style="width: 18rem;">
+        <img src="imagenes_integrador_front/steve.jpg" width="150" height="150" class="card-img-top" alt="foto de steve">
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Steve Jobs</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+        </div>
+      </div>
+    <div class= "col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes_integrador_front/bill.jpg" width="150" height="150" class="card-img-top" alt="foto de bill">
+        <div class="card-body">
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+        </div>
+      </div>
+    <div class= "col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes_integrador_front/ada.jpeg" width="150" height="150" class="card-img-top" alt="foto de ada">
+        <div class="card-body">
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+         </div>
+      </div>
+     </div>  
+  </div class="header">  
+      
+</div class="contenedor">     
+</body>
+</html>
+
+
+
+
+
+css
+
+/*img {
+    width: 150;
+    height: 150;
+}*/
+
+.header {
+    background-image:url(./imagenes_integrador_front/hawaii.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-logo   {
+    width: 80px;
+    background-color: rgb(55, 53, 53);
+    
+}
+
+a{
+    text-decoration: none;
+}
+.contenedor {
+    display: flex;
+}
+
+.row {   
+display: inline;
+justify-content: ;
+}
